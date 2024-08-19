@@ -1,0 +1,46 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-image: url("/fondoForm.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    backface-visibility: hidden;
+    margin: 50px;
+}
+
+.formContainer{
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    flex-direction: column; 
+    width: 500px;
+    height: 600px;
+    color: black;
+    font-weight: 500;
+    border: 1px solid;
+    border-radius: 5px;
+    border-color: antiquewhite;
+}
+
+.formContainer fieldset{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: solid 1px;
+    border-radius: 2px;
+}
+
+input:invalid{
+    border-color: red;
+}
+
+input:valid{
+    border-color: green;
+}
+
+input{
+    border: 2px solid black;
+    border-radius: 3px;
+}
