@@ -5,29 +5,69 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form Project 1</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="Logotipoodin-lined.png" type="image/png">
 </head>
 <body>
-    <div class="formContainer">
-        <h1>Formulario de registro</h1>
-        <form action="example.com/path" method="post">
-            <fieldset>
-                <legend>Completa los datos
-                </legend>
-                <label for="nombre">Nombre: </label>
-                <input type="text" name="nombre" id="nombre" required>
-                <label for="apellido">Apellido: </label>
-                <input type="text" name="apellido" id="apellido" required>
-                <label for="correo">correo: </label>
-                <input type="email" name="correo" id="correo" required>
-                <label for="phone">celular: </label>
-                <input type="tel" name="phone" id="phone" required>
-                <label for="contraseña">contraseña: </label>
-                <input type="password" name="psw" id="psw" required>
-                <label for="contraseña">confirmar contraseña: </label>
-                <input type="password" name="password" id="password" required>
-                <button type="submit">Registrarme</button>
-            </fieldset>
-        </form>
+    <div class="container1">
+    <div class="title">
+        <h1>
+            <img src="Logotipoodin-lined.png" alt="logoDeOdin">ODIN</h1>
     </div>
+    <footer>
+        <p>© 2024 Mi Sitio Web. Todos los derechos reservados. 
+            <a href="https://www.ejemplo.com"  target="_blank"
+            rel="noopener">Política de Privacidad</a>
+          </p>
+    </footer>
+</div>
+    <div class="Container2">
+        <div class="introForm">
+        <h2>
+            This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.
+            Sign up now to get started.
+            <h2>You <span>Know</span> you want to.</h2>
+        </h2>
+    </div>
+        <div class="formContainer">
+            <h3>
+                <p>Let's do this!</p>
+            </h3>
+            <div class="form-group">
+                <div>
+                    <label for="name">NAME</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div>
+                    <label for="lastname">LASTNAME</label>
+                    <input type="text" id="lastname" name="lastname" required>
+                </div>
+            </div>
+            <div class="form-group">
+                <div>
+                    <label for="email">EMAIL</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div>
+                    <label for="tel">PHONE</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="pass">
+                    <label for="password">PASSWORD</label>
+                    <input type="text" id="pass" name="pass" class="pass" required>
+                </div>
+                <div class="pass">
+                    <label for="password2">CONFIRM PASSWORD</label>
+                    <input type="text" id="pass2"name="pass2"  required>
+                </div>
+            </div>
+            <div class="buttonContainer">
+                <button type="submit">Create Account</button>
+                <p>Already have an account? <a href="http://ejemplo.com" target="_blank" rel="noopener noreferrer">Log in</a></p>
+            </div>
+        </div>
+    </div>
+</div>
 </body>
 </html>
